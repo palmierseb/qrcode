@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(199, 208, 221);
+    height: 100vh;
+}
+
+.qrbackground {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin: 50px auto;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+img {
+    margin: 6%;
+    margin-top: 1%;
+    border-radius: 6%;
+}
+
+h1,h3 {
+    margin: 5%;
+    text-align:center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 135%;
+    margin-top: 0%;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 93%;
+    margin-top: 0%;
+    margin-bottom: 15%;
+}
